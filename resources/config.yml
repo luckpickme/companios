@@ -1,0 +1,80 @@
+pets:
+#  youtube:
+#    name: Ютую
+#    price: 100
+#    texture: youtube
+#    available: VIP
+  suprise:
+    name: Недоумение
+    price: 100000
+    icon: "https://i.ibb.co/KDCgt6H/image.png"
+    texture: Suprise
+    available: VIP
+  pensive:
+    name: Задумчивый
+    price: 110000
+    icon: "https://i.ibb.co/sbW12gm/image.png"
+    texture: Pensive
+    available: MVP
+  indifferent:
+    name: Равнодушный
+    price: 127000
+    icon: "https://i.ibb.co/Qd6ZB83/image.png"
+    texture: Indifferent
+    available: MVP+
+  sad:
+    name: Печальный
+    price: 135000
+    icon: "https://i.ibb.co/n7jL0c7/image.png"
+    texture: Sad
+    available: MVP+
+  inlove:
+    name: Влюбленный
+    price: 150000
+    icon: "https://i.ibb.co/6PvyL2q/image.png"
+    texture: Inlove
+    available: ELITE
+  cool:
+    name: Крутой
+    price: 1000000
+    icon: "https://i.ibb.co/yFhPV7k/image.png"
+    texture: Cool
+    available: ELITE
+  youtube:
+    name: Кнопочка
+    price: 1
+    icon: "https://i.ibb.co/2YPqGwc/Youtube.png"
+    texture: Youtube
+    available: YOUTUBE
+
+discount:
+  MVP:
+    suprise: 12
+    pensive: 5
+    indifferent: 5
+  MVP+:
+    suprise: 20
+    pensive: 12
+    indifferent: 12
+    sad: 5
+  ELITE:
+    suprise: 70
+    pensive: 70
+    indifferent: 70
+    sad: 70
+    inlove: 40
+    cool: 10
+  CREATOR:
+    suprise: 100
+    pensive: 100
+    indifferent: 100
+    sad: 100
+    inlove: 100
+    cool: 100
+  YOUTUBE:
+    youtube: 100
+
+parents:
+  YOUTUBE: ELITE
+  MODERATOR: ELITE
+  ADMIN: CREATOR

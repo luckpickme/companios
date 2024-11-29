@@ -1,11 +1,16 @@
 name: Companions
-main: Companion\Pets\Main
+main: sxworz\pets\Main
 
 api: 5.0.0 
-version: 1.0.0
+version: 2.0.0
 
-author: https://github.com/luckpickme/companions (pluginsplanet, luckpickme)
-description: rewritten to pmmp5 by luckpickme
+author: https://github.com/luckpickme/companios
+description: Companion Plugin for PocketMine-MP 5.0.0
+
+depend:
+  - PurePerms
+  - EconomyAPI
+
 commands:
   companion:
     description: Компаньоны
@@ -13,7 +18,4 @@ commands:
 permissions:
   companion.use:
     default: true
-depend:
-  - PurePerms
-  - FormAPI
-  - EconomyAPI
+
